@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: darkcyan;
+    font-family: 'Nunito', sans-serif;
+}
+
+button,
+label,
+input,
+select {
+    font-family: 'Nunito', sans-serif;
+    background-color: darkcyan;
+    color: whitesmoke;
+    border: none;
+}
+
+.logo_text {
+    color: #198754;
+}
+
+.eco {
+    color: white;
+}
+
+.eco:hover {
+    color: #198754;
+}
+
+.logo h6 {
+    color: lightgray;
+}
+
+.info_text p:first-child {
+    color: #198754;
+    font-weight: bold;
+}
+
+.info_text p:last-child {
+
+    color: aliceblue;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #212529;
+}
+
+.logo {
+    margin-right: auto;
+    flex-basis: 40px;
+    padding: 0.6rem;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top_icon {
+    font-size: 32px;
+    padding: 0.6rem;
+    color: #198754;
+    flex-grow: 0%;
+    flex-shrink: 0%;
+    flex-basis: auto;
+}
+
+.info_text {
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#nav_show {
+    display: none;
+}
+
+.donate,
+.nav_box {
+    padding: 1rem 2rem;
+    flex-basis: 50%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.donate {
+    background-color: aliceblue;
+}
+
+.nav_box {
+    background-color: #198754;
+    color: whitesmoke;
+}
+
+.tree{
+    display:none;
+
+}
+.about{
+    /*background-color: yellowgreen; */
+    background-color: lavenderblush;
+    
+
+}
+
+.an-icon{
+    font-size: 4rem;
+    color:#198754;
+    padding: 1.5rem;
+    background-color: rgba(25, 135, 84, o,25);
+    border-radius: 0 0 50% 50%;
+}
+.a-method{
+    font-size: 1.6rem;
+    text-align: center;
+    background-color:whitesmoke;
+    color: #212529;
+    padding: 1rem;
+    height:175px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10px;
+
+    flex-basis: 25%;
+}
+
+.methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about h2{
+    font-weight: 700;
+    color: #198754;
+    font-size:3.6rem;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+about > p{
+    font-weight: 700;
+    color: #198754;
+    font-size:3.6rem;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+.social ion-icon{
+    font-size: 3rem;
+    color:#198754;
+
+}
+
+footer{
+    background-color: #212529;
+    height: 300px;
+    display: flex;
+
+}
+
+.about-company{
+    color: whitesmoke;
+}
